@@ -3,6 +3,11 @@ body {
     background: url("https://farm3.staticflickr.com/2001/4514042424_7b02afb20f_b.jpg") no-repeat center fixed;
 }
 
+img {
+    filter: grayscale(100%);
+}
+
+
 
 
 /* Mobile Styles */
@@ -88,7 +93,7 @@ body {
     }
 
     img {
-        width: 80%;
+        width: 70%;
         height: auto;
         margin: auto;
     }
@@ -134,7 +139,7 @@ body {
     img {
         display: inline;
         float: left;
-        width: 55%;
+        width: 60%;
         height: auto;
         margin-right: 50px;
     }
@@ -158,4 +163,10 @@ body {
         list-style-type: none;
         font-size: 1.2em;
     }
-  }
+
+
+
+    .p-section {
+        display: inline-block;
+    }
+}
